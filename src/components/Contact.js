@@ -24,7 +24,7 @@ const Contact = () => {
     setIsSubmitting(true);
     
     try {
-      const response = await fetch('https://formsubmit.co/adityasri.in@gmail.com', {
+      const response = await fetch('https://formsubmit.co/hosein.javid.dev@gmail.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -81,20 +81,20 @@ const Contact = () => {
             <div className="mt-6 space-y-4">
               <div className="flex items-center gap-3">
                 <FaEnvelope className="text-primary" />
-                <a href="mailto:adityasrivastava.niet@gmail.com" className="hover:text-primary transition-colors">
-                  adityasrivastava.niet@gmail.com
+                <a href="mailto:hosein.javid.dev@gmail.com" className="hover:text-primary transition-colors">
+                  hosein.javid.dev@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <FaLinkedin className="text-primary" />
-                <a href="https://www.linkedin.com/in/adityakumar29" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
-                  linkedin.com/in/adityakumar29
+                <a href="https://www.linkedin.com/in/hosein-javid" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                  linkedin.com/in/hosein-javid
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <FaGithub className="text-primary" />
-                <a href="https://github.com/adityaSrivastava29" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
-                  github.com/adityaSrivastava29
+                <a href="https://github.com/HoseinJavid" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                  github.com/HoseinJavid
                 </a>
               </div>
             </div>

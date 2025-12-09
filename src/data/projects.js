@@ -1,50 +1,58 @@
 export const projects = [
   {
-    title: 'AI-Powered Chatbot',
-    period: 'April 2025 - May 2025',
+    title: 'Karnama',
+    period: 'November 2025',
     bullets: [
-      'Constructed an AI chatbot using MERN stack and Gemini API for dynamic conversation flow.',
-      'Responsive UI in React with real-time Socket.io communication.',
-      'Backend with Node.js, Express, and MongoDB for scalable session tracking.',
-      'Gemini API for natural interactions with contextual memory.',
+      'A to-do list app built with Flutter.',
+      'Clean architecture and responsive UI.',
+      'Persistent storage and task management features.',
     ],
     links: {
-      code: 'https://github.com/adityaSrivastava29/AI-Powered-Chatbot',
+      code: 'https://github.com/HoseinJavid/karnama',
+      demo: 'https://hoseinjavid.github.io/karnama/',
+    },
+    tags: ['Flutter', 'Dart', 'Mobile'],
+  },
+  {
+    title: 'Nike Shop UI',
+    period: 'October 2025',
+    bullets: [
+      'UI clone of Nike shopping app built with Flutter.',
+      'Pixel-perfect design and smooth animations.',
+      'Responsive layout for multiple screen sizes.',
+    ],
+    links: {
+      code: 'https://github.com/HoseinJavid/nike-shop-ui',
       demo: null,
     },
-    tags: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'Gemini API'],
+    tags: ['Flutter', 'Dart', 'UI/UX'],
   },
   {
-    title: 'Movie Mahal',
-    period: 'January 2023 - June 2023',
+    title: 'Video Player',
+    period: 'June 2025',
     bullets: [
-      'Movie discovery platform using React, Redux, and TMDB API.',
-      'Responsive design with Grid/Flexbox.',
-      'Authentication and watchlists via Firebase.',
-      'Lazy loading and code splitting optimizations.',
-      'Admin panel for management.',
+      'A custom video player web app.',
+      'Supports multiple formats and playlist management.',
+      'Clean and intuitive user interface.',
     ],
     links: {
-      code: 'https://adityasrivastava29.github.io/',
-      demo: 'https://adityasrivastava29.github.io/',
+      code: 'https://github.com/HoseinJavid/video-player',
+      demo: null,
     },
-    tags: ['React', 'Redux', 'Firebase', 'TMDB'],
+    tags: ['Flutter', 'Dart', 'Mobile'],
   },
   {
-    title: 'Task Management System',
-    period: 'May 2025 - Present',
+    title: 'My Calculator',
+    period: 'March 2025',
     bullets: [
-      'React, TypeScript, Express.js; improved collaboration by 30%.',
-      'Real-time updates with WebSocket.',
-      'PostgreSQL for efficient data at scale.',
-      'Deployed on AWS with CI/CD.',
+      'A simple calculator app built with Flutter.',
+      'Supports basic arithmetic operations.',
+      'Clean UI and responsive design.',
     ],
     links: {
-      code: 'https://adityasrivastava29.github.io/',
-      demo: 'https://adityasrivastava29.github.io/',
+      code: 'https://github.com/HoseinJavid/my-calculator',
+      demo: null,
     },
-    tags: ['React', 'TypeScript', 'Express', 'PostgreSQL', 'WebSocket'],
+    tags: ['Flutter', 'Dart', 'Mobile'],
   },
 ];
-
-

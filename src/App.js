@@ -6,6 +6,7 @@ import About from './components/About';
 import Footer from './components/Footer';
 import { SkeletonGrid } from './components/ui/skeleton';
 import './index.css';
+
 const Experience = React.lazy(() => import('./components/Experience'));
 const Projects = React.lazy(() => import('./components/Projects'));
 const Skills = React.lazy(() => import('./components/Skills'));
@@ -17,38 +18,37 @@ function App() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Helmet>
-        <title>Aditya Kumar Srivastava - Software Engineer</title>
-        <meta name="description" content="Welcome to Aditya Kumar Srivastava's portfolio website. I'm Aditya Kumar Srivastava, a passionate software developer showcasing my projects, skills, and experience." />
-        <meta name="keywords" content="Adityasri, AdityaSri, adityasri.in, Aditya Kumar Srivastava,adityasri portfolio, Software Engineer" />
-        <meta name="author" content="Aditya Kumar Srivastava" />
-        <meta property="og:title" content="Aditya Kumar Srivastava - Portfolio" />
-        <meta property="og:description" content="Welcome to my portfolio website. Explore my projects, skills, and professional experience." />
+        <title>Hosein Javid - Mobile & Flutter Developer</title>
+        <meta name="description" content="Welcome to Hosein Javid's portfolio website. Explore my projects, skills, and professional experience." />
+        <meta name="keywords" content="HoseinJavid, Flutter developer, mobile developer, Dart, Flutter portfolio" />
+        <meta name="author" content="Hosein Javid" />
+        <meta property="og:title" content="Hosein Javid - Portfolio" />
+        <meta property="og:description" content="A showcase of my projects, skills, and experience as a mobile / Flutter developer." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://adityasri.in" />
+        <meta property="og:url" content="https://github.com/HoseinJavid" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Aditya Kumar Srivastava - Portfolio" />
-        <meta name="twitter:description" content="Welcome to my portfolio website. Explore my projects, skills, and professional experience." />
-        <link rel="canonical" href="https://adityasri.in" />
-        {/* SEO: Structured Data for Google */}
+        <meta name="twitter:title" content="Hosein Javid - Portfolio" />
+        <meta name="twitter:description" content="Check out my Flutter & mobile development projects, skills and experience." />
+        <link rel="canonical" href="https://github.com/HoseinJavid" />
+        {/* Structured Data for search engines */}
         <script type="application/ld+json">{`
           {
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Aditya Kumar Srivastava",
-            "url": "https://adityasri.in",
+            "name": "Hosein Javid",
+            "url": "https://github.com/HoseinJavid",
+            "jobTitle": "Mobile & Flutter Developer",
+            "description": "Portfolio website of Hosein Javid — mobile / Flutter developer showcasing projects, skills, experience.",
             "sameAs": [
-              "https://github.com/adityasrivastava29",
-              "https://www.linkedin.com/in/adityakumar29/",
-              "https://x.com/adityasri_in"
-            ],
-            "jobTitle": "Software Engineer",
-            "description": "Portfolio website of Aditya Kumar Srivastava, Software Engineer. Projects, skills, experience, and contact information."
+              "https://github.com/HoseinJavid"
+            ]
           }
         `}</script>
-        {/* SEO: Robots meta tag */}
         <meta name="robots" content="index, follow" />
       </Helmet>
+
       <Header />
+
       <div className="main-content">
         <About />
         <Suspense fallback={<div className="container py-16"><SkeletonGrid count={6} /></div>}>
@@ -60,6 +60,7 @@ function App() {
           <Contact />
         </Suspense>
       </div>
+
       <Footer />
     </div>
   );

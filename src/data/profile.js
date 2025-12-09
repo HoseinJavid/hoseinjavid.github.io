@@ -1,18 +1,18 @@
-  import adityaPic from "../Assets/aditya-kumar-pic.jpeg";
+  import adityaPic from "../Assets/hoseinjavid.jpg";
 
   export const profile = {
-    name: "Aditya Kumar Srivastava",
-    titles: ["Software Engineer", "Full Stack Developer", "AI Engineer"],
+    name: "Hosein javid",
+    titles: ["Flutter developer", "Software Engineer"],
     bio: [
-      "I build scalable, high-performance applications using TypeScript, JavaScript, React, Node.js, AWS, and LLM orchestration.",
-      "From crafting intuitive frontends to designing robust APIs, cloud architecture, and intelligent AI workflows, I deliver quality code that drives real impact.",
-      "Passionate about solving complex challenges in fast-paced, collaborative environments. Ready to build something exceptional together",
+      "Hello, I am a passionate Flutter developer specializing in building cross-platform applications for Android, iOS, Web, and Desktop using a single codebase. I focus on delivering clean architecture, responsive UI, smooth performance, and pixel-perfect design.",
+      "I leverage AI tools efficiently to speed up development, and I have strong skills in UX design, crafting beautiful and intuitive user interfaces.",
+      "I am highly meticulous and detail-oriented when it comes to application design, ensuring every element is polished and visually appealing.",
     ],
     image: adityaPic,
     social: {
-      email: "adityasrivastava.niet@gmail.com",
-      linkedin: "https://www.linkedin.com/in/adityakumar29",
-      github: "https://github.com/adityaSrivastava29",
-      x: "https://x.com/adityasri_in",
+      email: "hosein.javid.dev@gmail.com",
+      linkedin: "https://www.linkedin.com/in/hosein-javid",
+      github: "https://github.com/HoseinJavid",
+      x: null,
     },
   };
